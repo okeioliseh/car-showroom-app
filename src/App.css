@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  align-items: center;
+  display : flex;
+  justify-content: center;
+  height : 100vh;
+  background-color: #292b2c; 
+}
+
+/*Responsiveness for mobile*/
+.login_container{
+  align-items: center;
+  display : flex;
+  justify-content: center;
+  width : 85%;
+  height : 60%;
+  background-color: #D5D7DA;
+  /*margin-right: 25px;*/
+  box-shadow: rgba(30,31,50 0.404) 10px 10px;
+  border-radius : 20px;
+}
+
+#login_input{
+  outline: none;
+  padding : 20px 7%;
+  border-radius: 20px;
+  border : none;
+  background-color: rgba(250,250,250,0.90);
+}
+.landing_container{
+  width : 100%;
+  height : 100%;
+  align-items: center;
+  display : flex;
+  justify-content: center;
+}
+
+.side_text{
+  display : none
+}
+/*Responsiveness For desktop*/
+@media only screen and (min-width :768px){
+  .App{
+    background-color: #292b2c; 
+    
+  }
+  .login_container{
+    width : 50%;
+    height : 70%;
+    float : left;
+    background-color: #D5D7DA;
+    margin-right: 25px;
+    box-shadow: rgba(30,31,50 0.404) 10px 10px;
+  }
+  .side_text{
+    display : block;
+    /*background-color: #f7f7f7;*/
+    color : #f7f7f7;
+    width : 30%;
+    height : 50%;
+    float : right;
+  }
+  .side_text_header{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .side_pre_text{
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  #author_link{
+    text-decoration: none;
+    color : #5cb85c;
+  }
+  #login_input{
+    outline: none;
+    padding : 20px 7%;
+    border-radius: 20px;
+    border : none;
+    background-color: rgba(250,250,250,0.90);
+  }
+  #login_label{
+    font-style: italic;
+    font-size : 2rem;
+    font-weight: 500;
+    padding-right : 20%;
+    padding-bottom: 20%;
+
+  }
+}

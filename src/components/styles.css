@@ -1,0 +1,209 @@
+/*{
+	sidenavcolor : #EEEEEE,
+	app-border-color : #8A44CE,
+}*/
+
+.car{
+	color : #f7f7f7;
+
+}
+.home{
+	width : 100%;
+	width : 100%;
+	height : 100%;
+	align-items: center;
+	display : flex; 
+	justify-content: center;
+}
+
+/*DESKTOP :*/
+@media only screen and (min-width :768px){
+	.car_horizontal_slide{
+		/*background-color: #EEEEEE;*/
+		opacity : 0.5;
+		width: 55%;
+		margin-left : 30%;
+		height : 70%;
+		float : right;
+		box-shadow : 0 5px 15px rgba(15, 15, 15, 0.7);
+		padding: 20px;
+	}
+	.desktop_side_nav{
+		/*background-color: #EEEEEE;*/
+		height : 95%;
+		width : 20%;
+		position : fixed;
+		left : 0px;
+		border: 3px;
+		border-style: solid;
+		border-left : none;
+		border-top : none;
+		border-bottom: none;
+		border-color: #EEEEEE;
+	}
+	.nav_user_details{
+		height : 30%;
+	}
+	#user_icon{
+		width : 45%;
+		height : 45%;
+		opacity : 0.5;
+		padding : 0;
+		margin : 0;
+
+	}
+	#username_h3{
+		font-size : 1rem;
+		font-weight: 500;
+		color : #f7f7f7;
+		margin : 0;
+	}
+	.user_details_item{
+		display : inline;
+		border-right : 1px inset #EEEEEE;
+		align-items: center;
+		padding-right : 5%;
+		color : #EEEEEE;
+		font-weight: 300;
+	}
+	#user_details_ul{
+		padding: 0;
+	}
+
+
+	.desktop_side_links{
+		height : 70%;
+	}
+	.side_nav_link{
+		padding : 5%;
+		list-style-type: none;
+		text-align: left;
+		color : #EEEEEE;
+		width : 70%;
+		-ms-user-select : none;
+		-webkit-user-select : none;
+		user-select : none;
+	}
+	#active_side_link{
+		border-right: solid;
+		border-width: 3px;
+		border-color: #5cb85c;
+		color : #5cb85c;
+	}
+
+	.image_container{
+		height : 80%;
+		background-color: #EEEEEE;
+		color : #292b2c;
+		border-radius : 20px;
+		float : right;
+		flex-direction: column;
+		display: flex;
+		padding : 10px;
+		margin : 10px;
+		margin-bottom : none;
+		scroll-snap-align : start;
+		transition: all 0.2s;
+
+		box-shadow: 0 5px 15px rgba(15, 15, 15, 0.404);
+
+	}
+	.car{
+		width : 100%;
+		height : 100%;
+		overflow-x: scroll;
+		display : flex;
+		/*justify-content: center;*/
+		/*align-items: center;*/
+		float : right;
+		scroll-snap-type: x mandatory;
+	}
+	.car::-webkit-scrollbar{
+		height : 12px;
+
+	}
+	.car::-webkit-scrollbar-thumb,
+	.car::-webkit-scrollbar-track{
+		border-radius : 92px;
+		/*background: black;*/
+	}
+	.car::-webkit-scrollbar-track{
+		background : #EEEEEE;
+	}
+	.car::-webkit-scrollbar-thumb{
+		background : #5bc0de;
+	}
+
+	.car::-webkit-scrollbar{
+		height : 12px;
+
+	}
+	.car::scrollbar-thumb,
+	.car::scrollbar-track{
+		border-radius : 92px;
+		/*background: black;*/
+	}
+	.car::scrollbar-track{
+		background : #EEEEEE;
+	}
+	.car::scrollbar-thumb{
+		background : #5bc0de;
+	}
+
+	.slide_image{
+		width : 500px;
+		height : 80%;
+		margin-bottom : 2%;
+		border-radius : 20px;
+	}
+	.cart_btn{
+		float : right;
+		height : 80%;
+		margin-right : 1%;
+		margin-top : 1%;
+	}
+	.slide_car_props_div{
+		width : 100%;
+		background-color: #292b2c;
+		color : #EEEEEE;
+		height : 20%;
+		border-radius: 10px;
+	}
+	.car_name_h3{
+		font-size : 1.5rem;
+		font-weight : 400;
+		color : #EEEEEE;
+		padding-bottom : none;
+		padding-left : 2px;
+		margin : none;
+		/*float : left;*/
+	}
+	.car_model{
+		font-size : 1rem;
+		font-weight : 350;
+		color : #EEEEEE;
+		padding-left : 4%;
+		margin : none;
+		font-style: italic;
+		float : left;
+	}
+	.car_name_model_div{
+		float : left;
+		height : 100%;
+		padding : none;
+	}
+	.like_btn{
+		border : none;
+		float : right;
+		height : 80%;
+		margin-right : 1%;
+		margin-top : 1%;
+		outline : none;
+		opacity : 0.5;
+	}
+	.like_icon{
+		width : 30px;
+		height : 30px;
+
+	}
+} 
